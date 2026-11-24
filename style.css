@@ -1,0 +1,28 @@
+:root {
+    --secondary-200: hsl(270 89% 86%);
+    --secondary-900: hsl(270 90% 16%);
+    --neutral-800: hsl(220 95% 25%);
+    --accent-500: hsl(322 73% 50%);
+    --accent-700: hsl(322 74% 30%);
+}
+
+body {
+    background-color: var(--secondary-200);
+}
+
+h1, h2, h3 {
+    color: var(--neutral-800);
+}
+
+
+h4 {
+    color: var(--accent-700);
+}
+
+a {
+    color: var(--secondary-900);
+}
+
+button {
+    background-color: var(--accent-500);
+}
