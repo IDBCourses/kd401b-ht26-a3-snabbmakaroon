@@ -1,0 +1,56 @@
+:root {
+    --font-readable: "Atkinson Hyperlegible", sans-serif;
+    --font-weight-h1: 700;
+    --font-weight-h2: 650;
+    --font-weight-h4: 600;
+    --font-weight-body: 400;
+
+    --size-h1: 3.5rem;
+    --size-h2: 2rem;
+    --size-h4: 1.75rem;
+    --size-body: 1.5rem;
+    --size-small: 1rem;
+
+    --line-height: 1.5;
+    --measure: 65ch;
+}
+
+body {
+    font-family: var(--font-readable);
+    font-size: var(--size-body);
+    font-weight: var(--font-weight-body);
+    line-height: var(--line-height);
+}
+
+p {
+    max-width: var(--measure);
+}
+
+h1 {
+    font-family: var(--font-readable);
+    font-weight: var(--font-weight-h1);
+    font-size: var(--size-h1);
+}
+
+h2, h3, h4 {
+    font-family: var(--font-readable);
+    font-size: var(--size-h2);
+    font-weight: var(--font-weight-h2);
+}
+
+h4{
+    font-family: var(--font-readable);
+    font-size: var(--size-h2);
+    font-weight: var(--font-weight-h4);
+}
+
+a {
+    font-family: var(--font-readable);
+    font-size: var(--size-small);
+}
+
+button {
+    font-family: var(--font-readable);
+    font-weight: var(--font-weight-body);
+    font-size: var(--size-body);
+}
