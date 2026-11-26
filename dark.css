@@ -1,13 +1,15 @@
 :root {
     --secondary-100: hsl(270 90% 96%);
     --secondary-800: hsl(270 89% 26%);
-    --neutral-300: hsl(220 96% 75%);
+    --neutral-300: hsl(220 100% 79%);
+    --neutral-800: hsl(220 95% 25%);
     --accent-200: hsl(322 74% 80%);
     --accent-500: hsl(322 73% 50%);
+    --accent-700: hsl(322 74% 30%);
 }
 
 body {
-    background-color: var(--secondary-800)
+    background-color: var(--accent-700);
 }
 
 h1, h2, h3 {
@@ -20,6 +22,7 @@ h4 {
 
 a {
     color: var(--secondary-100);
+    text-decoration: none;
 }
 
 p {
@@ -27,5 +30,24 @@ p {
 }
 
 button {
-    background-color: var(--accent-500);
+  display: inline-block;
+  padding: 15px 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: var(--secondary-100);
+  background-color: var(--neutral-800);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+button:hover {
+    color: var(--neutral-800);
+    background-color: var(--accent-200);
 }

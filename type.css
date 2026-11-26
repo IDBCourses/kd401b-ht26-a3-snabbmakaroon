@@ -1,0 +1,62 @@
+:root {
+    --font-family-h: "syne", sans-serif;
+    --font-weight-h1: 800;
+    --font-weight-h2: 750;
+    --font-weight-h4: 700;
+    --size-h1: 2.5rem;
+    --size-h2: 2rem;
+    --size-h4: 1.75rem;
+
+    --font-family-b: "inter", sans-serif;
+    --font-weight-b-main: 500;
+    --font-weight-b-links: 400;
+    --size-body: 1.25rem;
+    --size-small: 1rem;
+
+    --line-height: 1.5;
+
+    --measure: 65ch;
+
+}
+
+body {
+    font-family: var(--font-family-b);
+    font-weight: var(--font-weight-b-main);
+    font-size: var(--size-body);
+    line-height: var(--line-height);
+}
+
+p {
+    max-width: var(--measure);
+}
+
+h1 {
+    font-family: var(--font-family-h);
+    font-weight: var(--font-weight-h1);
+    font-size: var(--size-h1);
+}
+
+h2, h3 {
+    font-family: var(--font-family-h);
+    font-weight: var(--font-weight-h2);
+    font-size: var(--size-h2);
+}
+
+
+h4 {
+    font-family: var(--font-family-h);
+    font-weight: var(--font-weight-h4);
+    font-size: var(--size-h4);
+}
+
+a {
+    font-family: var(--font-family-b);
+    font-weight: var(--font-weight-b-links);
+    font-size: var(--size-small);
+}
+
+button {
+    font-family: var(--font-family-b);
+    font-weight: var(--font-weight-b-links);
+    font-size: var(--size-body);
+}
